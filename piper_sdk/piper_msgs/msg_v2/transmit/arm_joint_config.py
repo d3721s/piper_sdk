@@ -4,7 +4,7 @@ from typing_extensions import (
     Literal,
 )
 class ArmMsgJointConfig:
-    '''
+    r'''
     msg_v2_transmit
     
     关节设置指令
@@ -32,7 +32,7 @@ class ArmMsgJointConfig:
         Byte 6: 保留
         Byte 7: 保留
     '''
-    '''
+    r'''
     msg_v2_transmit
     
     Joint Configuration Command
