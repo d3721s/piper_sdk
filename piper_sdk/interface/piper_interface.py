@@ -3252,7 +3252,7 @@ class C_PiperInterface():
                     acc_param_is_effective: Literal[0x00, 0xAE] = 0,
                     max_joint_acc: int = 500,
                     clear_err: Literal[0x00, 0xAE] = 0):
-        '''
+        r'''
         关节设置
         
         CAN ID:
@@ -3268,7 +3268,7 @@ class C_PiperInterface():
                            输入范围\[0, 500\]-->[0 rad/s^2, 5.0 rad/s^2]
             clear_joint_err: 清除关节错误代码,有效值,0xAE
         '''
-        '''
+        r'''
         Joint Configuration Command
         
         CAN ID:
